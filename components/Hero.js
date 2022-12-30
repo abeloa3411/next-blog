@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "../styles/hero.module.css";
+import { posts } from "../data/blog/blogs";
+import ListItems from "./ListItems";
 
 function Hero() {
   return (
@@ -21,6 +23,9 @@ function Hero() {
                 experiences and thaughts here, Thanks for stopping by
               </p>
             </div>
+          </div>
+          <div className={styles.card__container}>
+            <ListItems posts={posts} />
           </div>
         </div>
       </div>

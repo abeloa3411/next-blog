@@ -7,7 +7,7 @@ export default function Nav() {
       <header className={styles.header__container}>
         <div className={styles.header__center}>
           <div>
-            <h1>Abel Wanyonyi</h1>
+            <h3>Abel Wanyonyi</h3>
           </div>
           <div>
             <nav>

@@ -1,0 +1,41 @@
+.project__container {
+  width: 100%;
+}
+
+.project__inner__container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.project__title {
+  margin-bottom: 2rem;
+}
+
+.projects__card__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+}
+.projects__card__innercontainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project__card {
+  display: flex;
+  flex-direction: column;
+  width: clamp(22rem, calc(28rem + 2vw), 30rem);
+  overflow: hidden;
+  background: #ece9e6;
+  background: linear-gradient(to right, #ffffff, #ece9e6);
+}
+
+.project__card__img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}

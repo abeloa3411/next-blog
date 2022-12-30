@@ -15,12 +15,11 @@
 
 .hero__title {
   font-size: 40px;
-  background-image: linear-gradient(45deg, #ff0a78, #43f);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background-image: #000;
   text-align: center;
   font-weight: 700;
   margin-bottom: 2rem;
+  line-height: 3.5rem;
 }
 
 .btn {
@@ -43,4 +42,48 @@
 .paragraph__container p {
   line-height: 1.6;
   font-size: 20px;
+}
+
+.img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card__container {
+  margin-top: 3rem;
+}
+.card {
+  display: flex;
+  margin-bottom: 3rem;
+  border-bottom: 2px solid #f3f3f3;
+  padding-bottom: 2rem;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px;
+  flex: 1;
+}
+
+.card__img__container {
+  width: 300px;
+}
+
+.card__content__description {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.card__content__rtime {
+  margin-bottom: 0.5rem;
+  color: dodgerblue;
+  font-weight: 100;
+}
+
+.card__link {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  color: dodgerblue;
 }
