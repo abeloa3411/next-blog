@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import styles from "../styles/nav.module.css";
 
@@ -7,19 +8,25 @@ export default function Nav() {
       <header className={styles.header__container}>
         <div className={styles.header__center}>
           <div>
-            <h3>Abel Wanyonyi</h3>
+            <h3>
+              <span>
+                <Link href="/">Abel Wanyonyi</Link>
+              </span>
+            </h3>
           </div>
           <div>
             <nav>
               <ul className={styles.header__list}>
                 <li className={styles.header__list__items}>
-                  <a>Blogs</a>
+                  <Link href="/blogs" scroll>
+                    Blogs
+                  </Link>
                 </li>
                 <li className={styles.header__list__items}>
-                  <a>Projects</a>
+                  <Link href="/projects">Projects</Link>
                 </li>
                 <li className={styles.header__list__items}>
-                  <a>About</a>
+                  <Link href="/about">About</Link>
                 </li>
               </ul>
             </nav>

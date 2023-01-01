@@ -18,12 +18,23 @@ const ListItems = ({ posts }) => {
               </div>
               <div>{post.tags.map((tag) => `#${tag} `)}</div>
               <div className={styles.card__link}>
-                <a href="#">Read more</a>
+                <a
+                  href={post.link}
+                  referrerPolicy="no-referrer"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Read more
+                </a>
                 <AiOutlineArrowRight />
               </div>
             </div>
             <div className={styles.card__img__container}>
-              <img className={styles.img} src={post.link} />
+              <img
+                className={styles.img}
+                src={post.imgLink}
+                alt="Blog content"
+              />
             </div>
           </div>
         );
