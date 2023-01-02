@@ -8,8 +8,20 @@ const Projects = ({ projectsData }) => {
     <div className={styles.project__inner__container}>
       <div className={styles.project__container}>
         <div className={styles.project__title}>
-          <h1>Projects</h1>
-          <p>Welcom to the catalogue</p>
+          <h1 className={styles.project__title__h2}>Projects</h1>
+          <p>
+            Welcom to the catalogue, Here are the top projects, If you want to
+            see more projects got to my{" "}
+            <span>
+              <a
+                href="https://github.com/abeloa3411"
+                rel="noopener"
+                target="_blank"
+              >
+                github
+              </a>
+            </span>
+          </p>
         </div>
         <div className={styles.projects__card__container}>
           {projectsData.map((project) => {
