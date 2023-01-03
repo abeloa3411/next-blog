@@ -8,7 +8,7 @@ const projects = [
     title: "Fake E-commerce api API",
     description:
       "This is a free REST api that gives you e commerce data in json format, it has authentication with json web token and a mongodb database",
-    link: "https://github.com/abeloa3411",
+    link: "https://github.com/abeloa3411/fake-ecommerce-store-api",
     imgLink: img6,
   },
 
