@@ -1,9 +1,8 @@
 import React from "react";
 import styles from "../styles/hero.module.css";
-import { posts } from "../data/blogs";
 import ListItems from "./ListItems";
 
-function Hero() {
+function Hero({ posts }) {
   return (
     <>
       <div className={styles.hero__container}>

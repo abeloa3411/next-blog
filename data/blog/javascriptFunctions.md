@@ -1,8 +1,10 @@
 ---
-title:"Javascript Functions"
-date:" May 4, 2022"
-exerpt:"The javascript reduce method is one of the most powerful javascript higher-order functions."
-cover_image:"https://abelwanyonyi.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fstock%2Funsplash%2F6d295b44df8c30b893aa2e8fd4058056.jpeg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75"
+title: "Javascript Functions"
+date: "May 4, 2022"
+tags: ["javascript", "functions"]
+exerpt: "Functions are one of building blocks of javascript.
+In this article we will discuss what are functions and how to use them in your code"
+cover_image: "https://abelwanyonyi.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Funsplash%2Fm_HRfLhgABo%2Fupload%2Fv1651663228478%2FlbFWGdyGu.jpeg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75"
 ---
 
 Functions are one of building blocks of javascript.

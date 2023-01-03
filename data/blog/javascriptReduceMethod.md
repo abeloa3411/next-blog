@@ -1,8 +1,9 @@
 ---
-title:"Javascript reduce function"
-date:" Dec 24, 2022"
-exerpt:"The javascript reduce method is one of the most powerful javascript higher-order functions."
-cover_image:"https://abelwanyonyi.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fstock%2Funsplash%2F6d295b44df8c30b893aa2e8fd4058056.jpeg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75"
+title: "Javascript reduce function"
+date: "Dec 24, 2022"
+tags: ["javascript", "functions", "arrays", "reduce"]
+exerpt: "The javascript reduce method is one of the most powerful javascript higher-order functions."
+cover_image: "https://abelwanyonyi.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fstock%2Funsplash%2F6d295b44df8c30b893aa2e8fd4058056.jpeg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75"
 ---
 
 The javascript reduce method is one of the most powerful javascript higher-order functions. In this article, we are going to see how it works, when to use it and some examples of cool pieces of stuff that the method can perform

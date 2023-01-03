@@ -1,8 +1,9 @@
 ---
-title:"Javascript reduce function"
-date:" Dec 24, 2022"
-exerpt:"The javascript reduce method is one of the most powerful javascript higher-order functions."
-cover_image:"https://abelwanyonyi.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fstock%2Funsplash%2F6d295b44df8c30b893aa2e8fd4058056.jpeg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75"
+title: "Javascript Higher Order functions"
+date: "Dec 24, 2022"
+tags: ["javascript", "functions", "arrays"]
+exerpt: "these are functions that take other functions as arguments or returns a function as a value. The function passed as an argument is called callback"
+cover_image: "https://abelwanyonyi.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Funsplash%2Fvw3Ahg4x1tY%2Fupload%2Fv1645082136668%2FaBB_W-O1t.jpeg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75"
 ---
 
 these are functions that take other functions as arguments or returns a function as a value. The function passed as an argument is called callback. The latest version of JavaScript introduced lots of built in in methods which can help us solve complicated problems which regular loops could not solve easily. In this article we will focus on forEach, map, filter, reduce and sort
