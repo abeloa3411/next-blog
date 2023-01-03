@@ -17,11 +17,11 @@ export default function Nav() {
           <div>
             <nav>
               <ul className={styles.header__list}>
-                <li className={styles.header__list__items}>
+                {/* <li className={styles.header__list__items}>
                   <Link href="/blogs" scroll>
                     Blogs
                   </Link>
-                </li>
+                </li> */}
                 <li className={styles.header__list__items}>
                   <Link href="/projects">Projects</Link>
                 </li>
