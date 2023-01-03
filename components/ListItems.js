@@ -16,7 +16,7 @@ const ListItems = ({ posts }) => {
               <div className={styles.card__content__description}>
                 {post.description}
               </div>
-              <div>{post.tags.map((tag) => `#${tag} `)}</div>
+              <div></div>
               <div className={styles.card__link}>
                 <a
                   href={post.link}

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../styles/hero.module.css";
-import { posts } from "../data/blog/blogs";
+import { posts } from "../data/blogs";
 import ListItems from "./ListItems";
 
 function Hero() {
