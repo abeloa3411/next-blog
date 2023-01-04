@@ -16,6 +16,36 @@ a {
   margin: 0;
 }
 
+.post-title {
+  margin: 10px 0;
+}
+
+.post-date {
+  background: #f4f4f4;
+  margin-bottom: 20px;
+  padding: 3px 10px;
+  text-align: center;
+}
+
+.post-body {
+  line-height: 1.6;
+}
+
+.post-body ul,
+ol {
+  font-size: 110%;
+  line-height: 2.3;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.post-body pre {
+  background: #f4f4f4;
+  padding: 20px;
+  margin: 20px 0;
+  line-height: 2.3;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

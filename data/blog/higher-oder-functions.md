@@ -6,7 +6,7 @@ exerpt: "these are functions that take other functions as arguments or returns a
 cover_image: "https://abelwanyonyi.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Funsplash%2Fvw3Ahg4x1tY%2Fupload%2Fv1645082136668%2FaBB_W-O1t.jpeg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75"
 ---
 
-these are functions that take other functions as arguments or returns a function as a value. The function passed as an argument is called callback. The latest version of JavaScript introduced lots of built in in methods which can help us solve complicated problems which regular loops could not solve easily. In this article we will focus on forEach, map, filter, reduce and sort
+These are functions that take other functions as arguments or returns a function as a value. The function passed as an argument is called callback. The latest version of JavaScript introduced lots of built in in methods which can help us solve complicated problems which regular loops could not solve easily. In this article we will focus on forEach, map, filter, reduce and sort
 
 ### forEach
 
@@ -44,34 +44,34 @@ const multiplyByTwoObj = numbers.map((number) => ({ value: number * 2 }));
 
 The filter Method on Arrays filters out items that satisfy the conditions given and returns a new array. It does not mutate the array on which it is called
 
-```js
-const numbers = [2, 3, -6, -5, 4];
+````js
+                const numbers = [2, 3, -6, -5, 4];
 
-const positiveNumbers = numbers.filter((number) => number > 0); //[2,3,4]
-```
+                const positiveNumbers = numbers.filter((number) => number > 0); //[2,3,4]
+                ```
 
-```js
-const numbers = [2, 3, -6, -5, 4];
+                ```js
+                const numbers = [2, 3, -6, -5, 4];
 
-const negativeNumbers = numbers.filter((number) => number < 0); //[-6,-5]
-```
+                const negativeNumbers = numbers.filter((number) => number < 0); //[-6,-5]
+````
 
 ### Reduce
 
 The reduce method takes a callback function. The callback function takes current and optional initial value as parameters and returns a single value. An initial value is declared for the accumulator and if it is not declared, by default the accumulator will take the first value of the array and if the array is empty JavaScript throws an error
 
-```js
-arr.reduce((acc, cur) => {
-  //your code
-  return;
-}, initialValue);
-```
+````js
+                arr.reduce((acc, cur) => {
+                  //your code
+                  return;
+                }, initialValue);
+                ```
 
-```js
-const numbers = [1, 2, 3, 4, 5];
+                ```js
+                const numbers = [1, 2, 3, 4, 5];
 
-const sum = numbers.reduce((acc, cur) => acc + cur, 0); //15
-```
+                const sum = numbers.reduce((acc, cur) => acc + cur, 0); //15
+````
 
 ### Sort
 

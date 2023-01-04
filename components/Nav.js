@@ -18,8 +18,8 @@ export default function Nav() {
             <nav>
               <ul className={styles.header__list}>
                 <li className={styles.header__list__items}>
-                  <Link href="/blogs" scroll>
-                    Blogs
+                  <Link href="/blog" scroll>
+                    Blog
                   </Link>
                 </li>
                 <li className={styles.header__list__items}>

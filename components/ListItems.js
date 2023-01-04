@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../styles/hero.module.css";
 import { AiOutlineArrowRight } from "react-icons/ai";
+import Link from "next/link";
 
 const ListItems = ({ posts }) => {
   return (
@@ -18,14 +19,7 @@ const ListItems = ({ posts }) => {
               </div>
               <div>{post.frontmatter.tags.map((item) => `#${item}`)}</div>
               <div className={styles.card__link}>
-                <a
-                  href={post.link}
-                  referrerPolicy="no-referrer"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  Read more
-                </a>
+                <Link href={`/blogpage/${post.slug}`}>Read More</Link>
                 <AiOutlineArrowRight />
               </div>
             </div>

@@ -6,28 +6,31 @@ exerpt: "The javascript reduce method is one of the most powerful javascript hig
 cover_image: "https://abelwanyonyi.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fstock%2Funsplash%2F6d295b44df8c30b893aa2e8fd4058056.jpeg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75"
 ---
 
-The javascript reduce method is one of the most powerful javascript higher-order functions. In this article, we are going to see how it works, when to use it and some examples of cool pieces of stuff that the method can perform
+The javascript reduce method is one of the most powerful javascript higher-order functions.
+In this article, we are going to see how it works, when to use it and some examples of cool
+pieces of stuff that the method can perform
 
 ### Things to know when using reduce
 
 It is used on arrays, but cant be used in an object or a string unless converted to an array
 
-    1. returns a single value, imagine you have a basket of different items, each of them has a price and you want to calculate the total price of the items, you can use a for loop but reduce is the ideal method to use, it would combine the items in the basket according to what we want in this case the price, combine it and convert the array to a single value
+1. returns a single value,
 
-    2. does not change the original array
+2. does not change the original array
 
-    3. does not execute a function for empty array elements
+3. does not execute a function for empty array elements
 
-    4. Here is the reduce syntax
+Here is the reduce syntax
 
 ```js
     array.reduce(function(total,currentValue,currentIndex,arr),initialValue)
 
 ```
 
-The reduce function takes in a callback function to execute each element in the array. The function is called with four parameters and the last two are optional.
+The reduce function takes in a callback function to execute each element in the array.
+The function is called with four parameters and the last two are optional.
 
-total or accumulator
+#### total or accumulator
 
 This is the value that results from the previous call of the callback function. If the initial value is not specified the value of the array is equal to zero
 
