@@ -42,6 +42,7 @@
 .paragraph__container p {
   line-height: 1.6;
   font-size: 20px;
+  padding: 0 2rem;
 }
 
 .img {
@@ -86,4 +87,15 @@
   display: flex;
   align-items: center;
   color: dodgerblue;
+}
+
+@media screen and (max-width: 768px) {
+  .card__img__container {
+    display: none;
+  }
+  .hero__title {
+    font-size: 30px;
+    line-height: 1.6;
+    padding: 0 1rem;
+  }
 }

@@ -54,7 +54,8 @@ export default function BlogPage({
         </div>
         <div>
           <div>
-            Tags: <strong>{tags.map((item) => `${item} `)}</strong>
+            Tags:
+            <strong className="tags">{tags.map((item) => `${item}  `)}</strong>
           </div>
           <div className="post-body">
             <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>

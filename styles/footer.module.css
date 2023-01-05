@@ -22,3 +22,15 @@
 .footer__icons div {
   margin-left: 1rem;
 }
+
+@media screen and (max-width: 580px) {
+  .footer__icons {
+    display: none;
+  }
+
+  .footer__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

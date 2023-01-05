@@ -8,10 +8,11 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 5rem;
+  align-items: center;
 }
 
 .project__title {
-  padding: 1rem 0;
+  padding: 1rem;
   margin-bottom: 2rem;
 }
 
@@ -25,6 +26,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
+  padding: 1rem;
 }
 .projects__card__innercontainer {
   width: 100%;
@@ -66,5 +68,15 @@
 @media screen and (max-width: 1000px) {
   .project__card {
     width: 400px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .projects__card__container {
+    grid-template-columns: 1fr;
+  }
+
+  .project__card {
+    width: 350px;
   }
 }

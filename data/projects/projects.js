@@ -17,7 +17,7 @@ const projects = [
     title: "AI image generator",
     description:
       "This is a simple web app that is powered by a node back-end to do all the heavy stuff, It is made with vanillar javascript and uses the open ai image generation model",
-    link: "https://uradi-nation.netlify.app",
+    link: "https://ai-img-gen-srdf.onrender.com",
     imgLink: img5,
   },
   {

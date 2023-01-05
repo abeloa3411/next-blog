@@ -10,7 +10,7 @@ export default function Nav() {
           <div>
             <h3>
               <span>
-                <Link href="/">Abel Wanyonyi</Link>
+                <Link href="/">Abel</Link>
               </span>
             </h3>
           </div>

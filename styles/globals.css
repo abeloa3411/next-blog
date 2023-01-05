@@ -17,18 +17,20 @@ a {
 }
 
 .post-title {
-  margin: 10px 0;
+  font-size: 45px;
 }
 
 .post-date {
-  background: #f4f4f4;
-  margin-bottom: 20px;
-  padding: 3px 10px;
   text-align: center;
+  margin-bottom: 3rem;
+  padding: 1rem 0;
+  color: rgb(171, 203, 235);
 }
 
 .post-body {
   line-height: 1.6;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .post-body ul,
@@ -44,6 +46,11 @@ ol {
   padding: 20px;
   margin: 20px 0;
   line-height: 2.3;
+}
+
+.tags {
+  color: rgb(171, 203, 235);
+  padding-left: 10px;
 }
 
 @media (prefers-color-scheme: dark) {
