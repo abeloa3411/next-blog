@@ -76,7 +76,8 @@ console.log(totalPrice); //60
 
 #### Flatten an array
 
-Here, The initial value is an empty array, we use the concat() method to add the values to the initial array
+Here, The initial value is an empty array, we use the concat()
+method to add the values to the initial array
 
 ```js
 const isFlattened = [

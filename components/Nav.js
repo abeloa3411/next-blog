@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import styles from "../styles/nav.module.css";
+import { AiOutlineCode } from "react-icons/ai";
 
 export default function Nav() {
   return (
@@ -10,7 +11,12 @@ export default function Nav() {
           <div>
             <h3>
               <span>
-                <Link href="/">Abel</Link>
+                <Link href="/" className={styles.logo}>
+                  Abel{" "}
+                  <span className={styles.logo__icon}>
+                    <AiOutlineCode />
+                  </span>
+                </Link>
               </span>
             </h3>
           </div>

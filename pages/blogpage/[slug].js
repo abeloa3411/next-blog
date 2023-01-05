@@ -42,9 +42,9 @@ export default function BlogPage({
   content,
 }) {
   return (
-    <div className={styles.page__container}>
-      <div className={styles.inner__container}>
-        <div className={styles.page__header}>
+    <div className="container">
+      <div className="inner__container">
+        <div className="header">
           <header>
             <h1 className="post-title">{title}</h1>
             <p className="post-date">

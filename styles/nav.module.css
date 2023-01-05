@@ -30,3 +30,14 @@
   list-style: none;
   margin-left: 1rem;
 }
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.logo__icon {
+  margin-left: 0.5rem;
+}
