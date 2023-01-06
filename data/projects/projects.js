@@ -1,6 +1,7 @@
 import img1 from "../../public/liqour.webp";
 import img5 from "../../public/ai.webp";
 import img6 from "../../public/api.webp";
+import img2 from "../../public/img0.png";
 
 const projects = [
   {
@@ -27,6 +28,14 @@ const projects = [
       "This project is made using react on the front-end and uses google firebase for authentication, It also uses react useContext for the complex state management that it requires",
     link: "liqour-mart.web.app",
     imgLink: img1,
+  },
+  {
+    id: 3,
+    title: "twitter bot",
+    description:
+      "This is a twitter  bot made using node js, it can be used to tweet directly from the command line interface",
+    link: "github.com/abeloa3411/twitter-bot",
+    imgLink: img2,
   },
 ];
 
