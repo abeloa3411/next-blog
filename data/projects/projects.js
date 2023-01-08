@@ -26,7 +26,7 @@ const projects = [
     title: "liqour-mart",
     description:
       "This project is made using react on the front-end and uses google firebase for authentication, It also uses react useContext for the complex state management that it requires",
-    link: "liqour-mart.web.app",
+    link: "https://www.liqour-mart.web.app",
     imgLink: img1,
   },
   {
@@ -34,7 +34,7 @@ const projects = [
     title: "twitter bot",
     description:
       "This is a twitter  bot made using node js, it can be used to tweet directly from the command line interface",
-    link: "github.com/abeloa3411/twitter-bot",
+    link: "https://www.github.com/abeloa3411/twitter-bot",
     imgLink: img2,
   },
 ];

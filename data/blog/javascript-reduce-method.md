@@ -23,7 +23,7 @@ It is used on arrays, but cant be used in an object or a string unless converted
 Here is the reduce syntax
 
 ```js
-    array.reduce(function(total,currentValue,currentIndex,arr),initialValue)
+array.reduce(function(total,currentValue,currentIndex,arr),initialValue)
 
 ```
 

@@ -3,7 +3,6 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { marked } from "marked";
-import styles from "../../styles/blogpage.module.css";
 
 export async function getStaticPaths() {
   const files = fs.readdirSync(path.join("data", "blog"));
