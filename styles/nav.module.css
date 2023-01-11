@@ -1,5 +1,6 @@
 .header {
   width: 100%;
+  transition: all 0.3s ease-in;
 }
 
 .header__container {
@@ -40,4 +41,18 @@
 
 .logo__icon {
   margin-left: 0.5rem;
+}
+
+.bars {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .nav__container {
+    display: none;
+  }
+
+  .bars {
+    display: block;
+  }
 }

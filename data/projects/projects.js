@@ -9,7 +9,7 @@ const projects = [
     title: "Fake E-commerce api API",
     description:
       "This is a free REST api that gives you e commerce data in json format, it has authentication with json web token and a mongodb database",
-    link: "https://github.com/abeloa3411/fake-ecommerce-store-api",
+    link: "https://fake-ecommerce-store-api-documentation.vercel.app",
     imgLink: img6,
   },
 
@@ -23,10 +23,10 @@ const projects = [
   },
   {
     id: 2,
-    title: "liqour-mart",
+    title: "Sustainable Development Goals API",
     description:
-      "This project is made using react on the front-end and uses google firebase for authentication, It also uses react useContext for the complex state management that it requires",
-    link: "https://www.liqour-mart.web.app",
+      "This API is made with node js. The goal is to convey sustainability message to as many people as possible. This api gives you all sustainable development goals and the targets to be achieved",
+    link: "https://www.github.com/abeloa3411/ssg-api",
     imgLink: img1,
   },
   {
@@ -36,6 +36,14 @@ const projects = [
       "This is a twitter  bot made using node js, it can be used to tweet directly from the command line interface",
     link: "https://www.github.com/abeloa3411/twitter-bot",
     imgLink: img2,
+  },
+  {
+    id: 5,
+    title: "liqour-mart",
+    description:
+      "This project is made using react on the front-end and uses google firebase for authentication, It also uses react useContext for the complex state management that it requires",
+    link: "https://www.liqour-mart.web.app",
+    imgLink: img1,
   },
 ];
 

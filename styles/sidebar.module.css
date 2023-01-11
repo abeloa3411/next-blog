@@ -1,0 +1,49 @@
+.sidebar__container {
+  width: 80%;
+  z-index: 10;
+  background: #f2f2f2;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 80vh;
+  transform: translateY(-100%);
+  transition: all 0.3s ease-in;
+}
+
+.sidebar__container__show {
+  width: 80%;
+  z-index: 10;
+  background: #f2f2f2;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 80vh;
+  transform: translateY(0);
+}
+
+.sidebar__inner__container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar__nav {
+  width: 70%;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar__nav nav ul li {
+  list-style: none;
+  margin-bottom: 3rem;
+}
+
+.sidebar__icon {
+  position: absolute;
+  top: 8%;
+  right: 10%;
+}

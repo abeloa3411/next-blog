@@ -2,8 +2,9 @@ import Link from "next/link";
 import React from "react";
 import styles from "../styles/nav.module.css";
 import { AiOutlineCode } from "react-icons/ai";
+import { FaBars } from "react-icons/fa";
 
-export default function Nav() {
+export default function Nav({ toggle }) {
   return (
     <>
       <header className={styles.header__container}>
@@ -20,7 +21,7 @@ export default function Nav() {
               </span>
             </h3>
           </div>
-          <div>
+          <div className={styles.nav__container}>
             <nav>
               <ul className={styles.header__list}>
                 <li className={styles.header__list__items}>
@@ -36,6 +37,9 @@ export default function Nav() {
                 </li>
               </ul>
             </nav>
+          </div>
+          <div className={styles.bars} onClick={toggle}>
+            <FaBars />
           </div>
         </div>
       </header>
