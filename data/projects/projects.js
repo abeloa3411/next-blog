@@ -2,6 +2,7 @@ import img1 from "../../public/liqour.webp";
 import img5 from "../../public/ai.webp";
 import img6 from "../../public/api.webp";
 import img2 from "../../public/img0.png";
+import img3 from "../../public/ssg.png";
 
 const projects = [
   {
@@ -27,7 +28,7 @@ const projects = [
     description:
       "This API is made with node js. The goal is to convey sustainability message to as many people as possible. This api gives you all sustainable development goals and the targets to be achieved",
     link: "https://www.github.com/abeloa3411/ssg-api",
-    imgLink: img1,
+    imgLink: img3,
   },
   {
     id: 3,
