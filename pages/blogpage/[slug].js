@@ -36,7 +36,7 @@ export async function getStaticProps({ params: { slug } }) {
 }
 
 export default function BlogPage({
-  frontmatter: { title, date, tags },
+  frontmatter: { title, date, tags, rTime },
   slug,
   content,
 }) {
@@ -48,6 +48,7 @@ export default function BlogPage({
           <p className="post-date">
             <strong>{date}</strong>
           </p>
+          <p>{rTime} read</p>
         </header>
       </div>
       <div>

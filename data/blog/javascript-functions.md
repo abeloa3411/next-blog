@@ -1,6 +1,7 @@
 ---
 title: "Javascript Functions"
 date: "May 4, 2022"
+rTime: "3 min"
 tags: ["javascript", "functions"]
 exerpt: "Functions are one of building blocks of javascript.
 In this article we will discuss what are functions and how to use them in your code"

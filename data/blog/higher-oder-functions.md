@@ -1,6 +1,7 @@
 ---
 title: "Javascript Higher Order functions"
 date: "Dec 24, 2022"
+rTime: "3 min"
 tags: ["javascript", "functions", "arrays"]
 exerpt: "these are functions that take other functions as arguments or returns a function as a value. The function passed as an argument is called callback"
 cover_image: "https://abelwanyonyi.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Funsplash%2Fvw3Ahg4x1tY%2Fupload%2Fv1645082136668%2FaBB_W-O1t.jpeg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75"

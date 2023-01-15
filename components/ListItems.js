@@ -13,7 +13,9 @@ const ListItems = ({ posts }) => {
               <div className={styles.card__content__title}>
                 <h1>{post.frontmatter.title}</h1>
               </div>
-              <div className={styles.card__content__rtime}>5 min read</div>
+              <div className={styles.card__content__rtime}>
+                {post.frontmatter.rTime} read
+              </div>
               <div className={styles.card__content__description}>
                 {post.frontmatter.exerpt}
               </div>
