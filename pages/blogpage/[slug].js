@@ -41,24 +41,22 @@ export default function BlogPage({
   content,
 }) {
   return (
-    <div className="container">
-      <div className="inner__container">
-        <div className="header">
-          <header>
-            <h1 className="post-title">{title}</h1>
-            <p className="post-date">
-              <strong>{date}</strong>
-            </p>
-          </header>
-        </div>
+    <div className="inner__container">
+      <div className="header">
+        <header>
+          <h1 className="post-title">{title}</h1>
+          <p className="post-date">
+            <strong>{date}</strong>
+          </p>
+        </header>
+      </div>
+      <div>
         <div>
-          <div>
-            Tags:
-            <strong className="tags">{tags.map((item) => `${item}  `)}</strong>
-          </div>
-          <div className="post-body">
-            <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
-          </div>
+          Tags:
+          <strong className="tags">{tags.map((item) => `${item}  `)}</strong>
+        </div>
+        <div className="post-body">
+          <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
         </div>
       </div>
     </div>

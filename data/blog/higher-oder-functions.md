@@ -28,7 +28,9 @@ Iterates an array and modifies all of its elements then it returns a new array. 
 ```js
 const numbers = [1, 2, 3, 4, 5];
 
-const multiplyByTwo = numbers.map((number) => number * 2); //[2,4,6,8,10]
+const multiplyByTwo = numbers.map((number) => number * 2);
+
+//[2,4,6,8,10]
 ```
 
 you can return any data type that you want using the map metthod Here we return an object
@@ -44,34 +46,39 @@ const multiplyByTwoObj = numbers.map((number) => ({ value: number * 2 }));
 
 The filter Method on Arrays filters out items that satisfy the conditions given and returns a new array. It does not mutate the array on which it is called
 
-````js
-                const numbers = [2, 3, -6, -5, 4];
+```js
+const numbers = [2, 3, -6, -5, 4];
 
-                const positiveNumbers = numbers.filter((number) => number > 0); //[2,3,4]
-                ```
+const positiveNumbers = numbers.filter((number) => number > 0);
 
-                ```js
-                const numbers = [2, 3, -6, -5, 4];
+//[2,3,4]
+```
 
-                const negativeNumbers = numbers.filter((number) => number < 0); //[-6,-5]
-````
+```js
+const numbers = [2, 3, -6, -5, 4];
+
+const negativeNumbers = numbers.filter((number) => number < 0);
+
+//[-6,-5]
+```
 
 ### Reduce
 
 The reduce method takes a callback function. The callback function takes current and optional initial value as parameters and returns a single value. An initial value is declared for the accumulator and if it is not declared, by default the accumulator will take the first value of the array and if the array is empty JavaScript throws an error
 
-````js
-                arr.reduce((acc, cur) => {
-                  //your code
-                  return;
-                }, initialValue);
-                ```
+```js
+arr.reduce((acc, cur) => {
+  //your code
+  return;
+}, initialValue);
+```
 
-                ```js
-                const numbers = [1, 2, 3, 4, 5];
+```js
+const numbers = [1, 2, 3, 4, 5];
 
-                const sum = numbers.reduce((acc, cur) => acc + cur, 0); //15
-````
+const sum = numbers.reduce((acc, cur) => acc + cur, 0);
+//15
+```
 
 ### Sort
 
@@ -97,3 +104,7 @@ numbers.sort((a, b) => {
 ### Conclusion
 
 There are still more JavaScript higher order function that I haven't mentioned like Some, Every and so on. These higher order functions helps to solve complex problems which it would have been hard to implement using regular loops.
+
+### References
+
+MDN

@@ -28,13 +28,13 @@ A javascript function can be declared in the following ways,
 Here is an example of how a function is declared
 
 ```js
-        function fnName(){
-        // code
-        }
-        fnName()  //invoking the fuction
-Here is a function returning a value
-
+function fnName() {
+  // code
+}
+fnName(); //invoking the fuction
 ```
+
+Here is a function returning a value
 
 ```js
 function addTwoNumbers() {
@@ -62,16 +62,14 @@ multiply(5, 2); // 10
 To provide a default value to a function, we set it the same way we set a value to a variable
 
 ```js
-        function Greeting(name, greeting = ‘hello’){
-
-        }
+function Greeting(name, greeting = ‘hello’){}
 
 ```
 
 When calling the function, we then can decide if we want to set the value for the situation
 
 ```js
-        Greeting(“Christopher”)  or  Greeting(“Christopher”, hi)
+Greeting(“Christopher”)  or  Greeting(“Christopher”, hi)
 ```
 
 #### function as parameters
@@ -79,12 +77,10 @@ When calling the function, we then can decide if we want to set the value for th
 Parameters are values that you pass to a function during declaration Mostly happens when we don’t know when something is going to occur or complete but we have to perform an operation in response. Consider setTimeout
 
 ```js
-        function good(){
-        console.log(“good boy”)
-
-        }
-
-        setTimeout(good,3000)
+function good(){
+console.log(“good boy”)
+}
+setTimeout(good,3000)
 ```
 
 #### anonymous function
