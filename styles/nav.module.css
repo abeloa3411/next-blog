@@ -32,8 +32,14 @@
 .header__list__items {
   list-style: none;
   margin-left: 1rem;
+  transition: all 0.1s ease-in;
+  padding-bottom: 3px;
 }
 
+.header__list__items:hover {
+  color: dodgerblue;
+  border-bottom: 2px solid dodgerblue;
+}
 .logo {
   display: flex;
   justify-content: center;
