@@ -6,7 +6,7 @@ publishedAt: "https://abelwanyonyi.hashnode.dev/"
 tags: ["javascript", "functions"]
 exerpt: "Functions are one of building blocks of javascript.
 In this article we will discuss what are functions and how to use them in your code"
-cover_image: "https://abelwanyonyi.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Funsplash%2Fm_HRfLhgABo%2Fupload%2Fv1651663228478%2FlbFWGdyGu.jpeg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75"
+cover_image: "https://cdn.hashnode.com/res/hashnode/image/unsplash/m_HRfLhgABo/upload/v1651663228478/lbFWGdyGu.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
 ---
 
 Functions are one of building blocks of javascript.

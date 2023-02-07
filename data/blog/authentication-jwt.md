@@ -5,7 +5,7 @@ rTime: "6 min"
 publishedAt: "https://abelwanyonyi.hashnode.dev/"
 tags: ["javascript", "node js", "authentication"]
 exerpt: "JSON Web Token (JWT) is an open standard (RFC 7519) that defines a compact and self-contained way for securely transmitting information between parties as a JSON object."
-cover_image: "https://abelwanyonyi.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fstock%2Funsplash%2F6pflEeSzGUo%2Fupload%2F3974b9c80b678334df84e61af984345f.jpeg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75"
+cover_image: "https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/6pflEeSzGUo/upload/3974b9c80b678334df84e61af984345f.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
 ---
 
 Topics: Node js, jsonwebtoken

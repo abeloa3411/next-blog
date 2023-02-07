@@ -5,7 +5,7 @@ rTime: "4 min"
 publishedAt: "https://abelwanyonyi.hashnode.dev/"
 tags: ["javascript", "node", "railaway", "deployment"]
 exerpt: "In this article, I will show an alternative to Heroku. We will learn how to deploy a node express app to Railway which is free and also has an easy process to deploy your backend apps."
-cover_image: "https://abelwanyonyi.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fstock%2Funsplash%2F8bghKxNU1j0%2Fupload%2F4f77127128bdf21472001a51835490f5.jpeg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75"
+cover_image: "https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/8bghKxNU1j0/upload/4f77127128bdf21472001a51835490f5.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
 ---
 
 Heroku free tier was one of the best and most used for the deployment of backend apps. But the Heroku free tier ended last year.

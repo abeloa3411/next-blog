@@ -1,6 +1,7 @@
 import img5 from "../../public/ai.webp";
 import img6 from "../../public/api.webp";
 import img2 from "../../public/img0.png";
+import img1 from "../../public/bank.webp";
 
 const projects = [
   {
@@ -12,6 +13,14 @@ const projects = [
     imgLink: img6,
   },
 
+  {
+    id: 1,
+    title: "Bank api",
+    description:
+      "The bank system api is a REST API implemented with node js, express and mongodb. The api enables a user to do do the following: Create an account, Add funds to their accounts,transfer funds to another user's account,wnithdraw funds from their account",
+    link: "https://github.com/abeloa3411/bank-system-api",
+    imgLink: img1,
+  },
   {
     id: 1,
     title: "AI image generator",
