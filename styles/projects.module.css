@@ -57,6 +57,11 @@
 .project__card__link {
   display: flex;
   align-items: center;
+  transition: all 0.3s ease;
+}
+
+.project__card__link :hover {
+  color: dodgerblue;
 }
 
 .project__card__img {
