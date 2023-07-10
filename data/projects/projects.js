@@ -31,10 +31,10 @@ const projects = [
   },
   {
     id: 3,
-    title: "twitter bot",
+    title: "Go load balancer",
     description:
-      "This is a twitter  bot made using node js, it can be used to tweet directly from the command line interface",
-    link: "https://www.github.com/abeloa3411/twitter-bot",
+      "This is a simple load balncer that helps to direct traffic to available servers instead of over loading traffic on one server",
+    link: "https://www.github.com/abeloa3411/go-load-balancer",
     imgLink: img2,
   },
 ];
