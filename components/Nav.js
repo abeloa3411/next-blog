@@ -25,11 +25,6 @@ export default function Nav({ toggle }) {
             <nav>
               <ul className={styles.header__list}>
                 <li className={styles.header__list__items}>
-                  <Link href="/blog" scroll>
-                    Blog
-                  </Link>
-                </li>
-                <li className={styles.header__list__items}>
                   <Link href="/projects">Projects</Link>
                 </li>
                 <li className={styles.header__list__items}>

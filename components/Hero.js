@@ -7,20 +7,9 @@ function Hero({ posts }) {
     <>
       <div className={styles.hero__container}>
         <div className={styles.hero__center}>
-          <div>
-            <h2 className={styles.hero__title}>
-              Hey there, I'm abel wanyonyi, a web developer, technical writter
-              and a big fan of the tech community
-            </h2>
-          </div>
           <div className={styles.work__container}>
-            <div className={styles.paragraph__container}>
-              <p>
-                Thank you for visiting my blog where i share my knowledge and
-                thoughts on web development, technical writting and other
-                related technologies. You can also comment and share your
-                experiences and thaughts here, Thanks for stopping by
-              </p>
+            <div className={styles.main__text}>
+              <h2>Let's talk about Tech.</h2>
             </div>
           </div>
           <div className={styles.card__container}>
